@@ -9,3 +9,8 @@ PI_BUSTER_BASE_IMAGE="2020-05-27-raspios-buster-lite-armhf"
 
 APT_CACHER_NG_URL=http://127.0.0.1:3142
 APT_CACHER_NG_ENABLED=false
+
+APT_SOURCE_URL=https://dl.cloudsmith.io/public/openhd/openhd-2-0/deb
+
+OPENHD_PACKAGES="openhd=2.0.0rc15 openhd-linux-pi=20200802.1"
+OPENHD_KEY_URL=https://dl.cloudsmith.io/public/openhd/openhd-2-0/cfg/gpg/gpg.B9F0E99CF5787237.key
